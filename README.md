@@ -8,10 +8,10 @@ This project is a full-stack AI wearable solution using smart glasses that auton
 
 | Repository                                                             | Purpose                                            |
 | ---------------------------------------------------------------------- | -------------------------------------------------- |
-| [ESP32\_CAM](https://github.com/Mahesh-656/ESP32_CAM)                | Firmware to capture and send images from ESP32-CAM |
-| [FaceDetection](https://github.com/Mahesh-656/Face_Detection)         | Node.js service to detect and recognize faces      |
-| [EmbeddingServices](https://github.com/Mahesh-656/Embedding_Services) | Backend for image-to-text, vector embeddings       |
-| [Frontend](https://github.com/Mahesh-656/FF_Mind_Sync)                   | Web interface for query and memory visualization   |
+| [ESP32\_CAM](https://github.com/thejaAshwin62/ESP32_CAM)                | Firmware to capture and send images from ESP32-CAM |
+| [FaceDetection](https://github.com/thejaAshwin62/face-service)         | Node.js service to detect and recognize faces      |
+| [EmbeddingServices](https://github.com/thejaAshwin62/embedding-services) | Backend for image-to-text, vector embeddings       |
+| [Frontend](https://github.com/thejaAshwin62/FE-Mind-Sync)                   | Web interface for query and memory visualization  |
 
 ---
 
@@ -61,22 +61,22 @@ To build a wearable system that captures visual experiences, processes them into
 
 ## 🧩 Repository Overview
 
-### 🔹 [ESP32\_CAM](https://github.com/Mahesh-656/ESP32_CAM)
+### 🔹 [ESP32\_CAM](https://github.com/thejaAshwin62/ESP32_CAM)
 
 * Arduino sketch for ESP32
 * Captures and transmits image data
 
-### 🔹 [FaceDetection](https://github.com/Mahesh-656/Face_Detection)
+### 🔹 [FaceDetection](https://github.com/thejaAshwin62/face-service)
 
 * Express.js API with TensorFlow\.js & face-api.js
 * Extracts and matches face vectors
 
-### 🔹 [EmbeddingServices](https://github.com/Mahesh-656/Embedding_Services)
+### 🔹 [EmbeddingServices](https://github.com/thejaAshwin62/embedding-services)
 
 * Main backend logic
 * Handles image uploads, captioning, embedding, and semantic search
 
-### 🔹 [Frontend](https://github.com/Mahesh-656/FF_Mind_Sync)
+### 🔹 [Frontend](https://github.com/thejaAshwin62/FE-Mind-Sync)
 
 * Built in React.js + Tailwind CSS
 * Query interface with response viewer
@@ -113,10 +113,3 @@ To build a wearable system that captures visual experiences, processes them into
 * Biometric-secure login & memory access
 
 ---
-
-## 👨‍🎓 Author
-
-**Maheshwar R.**
-Final Year B.Tech CSE Student
-Email: [your-email@example.com](mailto:your-email@example.com)
-LinkedIn: [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
